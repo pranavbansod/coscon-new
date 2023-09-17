@@ -1,0 +1,98 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images3.alphacoders.com/132/1328863.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #ff6600;
+    text-align: center;
+    font-family: 'Halloween', cursive;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 50%;
+    align-self: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Halloween', cursive;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+}
+
+input[type="text"], input[type="tel"], input[type="file"], textarea {
+    border: none;
+    border-bottom: 2px solid rgba(255, 102, 0, 0.7); /* Transparent underline */
+    background-color: transparent;
+    font-family: 'Halloween', cursive;
+    width: 100%;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 102, 0, 0.7); /* Subtle shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+input[type="text"]:focus, input[type="tel"]:focus, input[type="file"]:focus, textarea:focus {
+    outline: none;
+    border-color: #ff6600; /* Highlight when focused */
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.7); /* Highlight shadow when focused */
+}
+
+input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Halloween', cursive;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff9900;
+}
+
+
+#coscon-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Halloween', cursive;
+}
+
+#coscon-info h3 {
+    color: #ff6600;
+}
+
+#coscon-info p {
+    color: #fff;
+    margin: 5px 0;
+}
